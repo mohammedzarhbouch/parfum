@@ -1,0 +1,56 @@
+
+.header-container {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(212, 175, 55, 0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100px;
+    width: 100vw;
+    z-index: 1000;
+}
+
+
+.company-name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: auto; /* Add this to push the company name to the far left */
+    margin-left: auto; /* Add this to push the company name to the far right */
+}
+
+
+.link-container-left .test1{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: white;
+    
+}
+
+.link-container-right ul{
+    list-style: none;
+    display: flex;
+    
+}
+
+.link-container-right ul li {
+    /* margin: 0; */
+}
+
+.link-container-right ul li a.box {
+    
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    min-width: 30px;
+    min-height: 30px;
+    background-color: none;
+    display: block; /* Ensures the width and height properties are applied */
+    margin-right: 0px;
+    padding: 5px;
+    
+}
+
