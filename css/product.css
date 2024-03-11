@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(32, 33, 36);
+    
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    
+   
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: #ffffff; */
+    width: 100vw;
+    height: 100vh;
+   
+
+}
+
+.product-container{
+
+    background-color: red;
+    display: flex;
+   
+}
