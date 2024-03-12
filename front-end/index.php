@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/header.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -16,7 +16,7 @@
     <div class="header-container">
         <div class="link-container-left">
             <a class="test1">
-                <i class="fa-solid fa-2x fa-ranking-star"></i>
+                Top Worldwide
             </a>
             
         </div>
@@ -45,7 +45,7 @@
     </div>
     
 
-    <video class="banner" id="video" src="assets/video.mp4" autoplay muted loop alt="Fading Banner"></video>
+    <video class="banner" id="video" src="../../../assets/video.mp4" autoplay muted loop alt="Fading Banner"></video>
 
     <div class="item-container">
 
@@ -63,14 +63,14 @@
     <div id="scrollTo" class="favorite-container">
         <div class="personal-favorites">
             <div class="favorite-header">OdeFragrance's First Favorite</div>
-            <img class="fav-img" src="assets/eros.png">
+            <img class="fav-img" src="../assets/eros.png">
             <div class="favorite-footer">Versace Ero 200ml</div>
             <div class="favorite-footer">€ 135,00</div>
         </div>
     
         <div class="personal-favorites">
             <div class="favorite-header">Second Favorites</div>
-            <img class="fav-img" src="assets/eros.png">
+            <img class="fav-img" src="../assets/eros.png">
             <div class="favorite-footer">test</div>
             <div class="favorite-footer">test</div>
         </div>
